@@ -29,8 +29,8 @@ function getAkanName(dob, gender) {
         "Saturday: Ama"
     ];
     if (gender == "M") {
-        let akan[] = male[dayofWeek];
-        alert("Since you were born on")
+        console.log(male[dayofWeek]);
+
 
 
     } else if (gender == "F") {
@@ -38,7 +38,7 @@ function getAkanName(dob, gender) {
 
     } else {
 
-
+        console.log("The Gender or Date is wrong")
     }
 
 }
